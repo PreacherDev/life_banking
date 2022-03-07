@@ -419,7 +419,6 @@ AddEventHandler('onResourceStart', function(life_banking)
 	if (GetCurrentResourceName() ~= life_banking) then
 		return
 	end
-	TriggerServerEvent('life_banking:getitemsP')
 	print("started life_banking")
 end)
 
